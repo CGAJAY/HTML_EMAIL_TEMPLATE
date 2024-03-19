@@ -57,6 +57,30 @@
             }
         }
 
+        .sections-3{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 10px;
+            text-align: center;
+        }
+        .section-3 a{
+            cursor: pointer;
+        }
+        .section-3 p{
+           width: 80%;
+           margin: 0 auto;
+        }
+
+        /* Extra small devices  */
+        @media only screen and (max-width: 470px) {
+            .sections-3{
+                flex-direction: column;
+                padding: 50px 10px 5px;
+            }
+            .section-3{
+                margin-bottom: 40px;
+            }
+        }
   
     </style>
 </head>
@@ -85,6 +109,31 @@
                 <a href="#">
                     <img src="https://placehold.co/600x400" alt="Banner image" width="600" style="max-width: 100%;">
                 </a>
+            </div>
+
+            <!-- THREE COLUMN SECTION -->
+            <div class="sections-3">
+                <div class="section-3">
+                    <a href="#">
+                        <img src="https://placehold.co/150x150/000000/FFFFFF.png" alt="" srcset="">
+                    </a>
+                    <h2>Ecommerce</h2>
+                    <p>Responsive HTML Email Template Course to master email development.</p>
+                </div>
+                <div class="section-3">
+                    <a href="#">
+                        <img src="https://placehold.co/150x150/000000/FFFFFF.png" alt="" srcset="">
+                    </a>
+                    <h2>Web Design</h2>
+                    <p>Responsive HTML Email Template Course to master email development.</p>
+                </div>
+                <div class="section-3">
+                    <a href="#">
+                        <img src="https://placehold.co/150x150/000000/FFFFFF.png" alt="" srcset="">
+                    </a>
+                    <h2>HTML Email</h2>
+                    <p>Responsive HTML Email Template Course to master email development.</p>
+                </div>
             </div>
         </div>
     </div>
