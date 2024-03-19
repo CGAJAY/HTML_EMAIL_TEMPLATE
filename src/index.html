@@ -81,6 +81,39 @@
                 margin-bottom: 40px;
             }
         }
+
+
+        .section-2{
+            display: flex;
+            background-color: black;
+            justify-content: space-between;
+            padding: 40px 20px;
+        }
+        .section-2 .details{
+            text-align: start;
+            margin-left: 30px;
+            color: white;
+        }
+        .section-2 .details button{
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            border-radius: 8px;
+            border: none;
+        }
+            /* Extra small devices  */
+            @media only screen and (max-width: 470px) {
+            .section-2{
+                flex-direction: column;
+                margin: 0 auto;
+                /* padding: 50px 10px 5px; */
+            }
+            .section-2 .details{
+                text-align: center;
+                margin: 40px 0;
+            }
+        }
+
   
     </style>
 </head>
@@ -134,6 +167,20 @@
                     <h2>HTML Email</h2>
                     <p>Responsive HTML Email Template Course to master email development.</p>
                 </div>
+            </div>
+
+            <!-- TWO COLUMN SECTION -->
+            <div class="section-2" >
+                <a href="#">
+                    <img src="https://placehold.co/300x200/000000/FFFFFF.png" alt="" srcset="" style="border: 2px solid white; max-width: 100%;">
+                </a>
+                    <div class="details">
+                        <h3>Create Custom Designs</h3>
+                        <p>Over the years we have built up a massive portfolio our client website and email designs</p>
+                        <a href="#">
+                            <button>Read More</button>
+                        </a>
+                    </div>
             </div>
         </div>
     </div>
