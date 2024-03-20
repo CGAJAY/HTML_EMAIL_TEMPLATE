@@ -34,15 +34,21 @@
             color: #171a1b;
         }
 
-        .header{
-            display: flex;
-            padding: 25px 30px;
-            justify-content: space-between;
-            align-items: center;
+       /* Header */
+       .header{
+        padding: 30px;
+       }
+       .header .logo{
+            float: left;
+            margin-bottom: 25px;
+       }
+        .header .icons{
+            float: right;
+            margin-bottom: 25px;
         }
-        .header .icons a:not(:last-child){
+        /* .header .icons a:not(:last-child){
             margin-right: 0.5rem;
-        }
+        } */
         .header .icons img{
             width: 30px;
         }
@@ -158,15 +164,13 @@
     <div class="wrapper">
         <div class="main">
             <!-- NAV -->
-            <nav style="background-color: #171a1b;height: 8px;"></nav>
+            <div style="background-color: #171a1b;height: 8px;"></div>
 
             <!-- HEADER -->
-            <header class="header">
-                <div class="logo-cont">
-                    <a href="#" class="logo">
-                        <img src="https://i.postimg.cc/kXffyZXH/modern.jpg" alt="" style="max-width: 150px;">
-                    </a>
-                </div>
+            <div class="header">
+                <a href="#" class="logo">
+                    <img src="https://i.postimg.cc/kXffyZXH/modern.jpg" alt="" style="max-width: 150px;">
+                </a>
                 <div class="icons">
                     <a  href="#"><img src="https://i.postimg.cc/jqy1yZfV/black-facebook.png" alt=""></a>
                     <a href="#"><img src="https://i.postimg.cc/jdKFcP6D/black-twitter.png" alt=""></a>
@@ -174,7 +178,7 @@
                     <a href="#"><img src="https://i.postimg.cc/tC5mMJD2/black-linkedin.png" alt=""></a>
                     <a href="#"><img src="https://i.postimg.cc/sgg0dzNy/black-instagram.png" alt=""></a>
                 </div>
-            </header>
+            </div>
 
             <!-- BANNER -->
             <div class="banner">
